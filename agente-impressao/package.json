@@ -1,0 +1,9 @@
+{
+  "name": "gacfood-etiquetas-agente",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agente de impressão: roda no computador ligado à impressora e imprime a fila de etiquetas.",
+  "scripts": { "start": "node agente.mjs", "teste": "node teste-layout.mjs" },
+  "dependencies": { "@supabase/supabase-js": "^2.118.0" }
+}
